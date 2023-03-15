@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col {
+    height: 60px;
+    background-color: aqua;
+    flex: 1;
+    margin-right: 10px;
+}
+.col-2 {
+    background-color: aqua;
+    flex: 2;
+    margin-right: 10px;
+}
+
+.col-3 {
+    height: 60px;
+    background-color: aqua;
+    flex: 3;
+    margin-right: 10px;
+}
